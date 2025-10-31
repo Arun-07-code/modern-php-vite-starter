@@ -1,0 +1,8 @@
+@reference "tailwindcss";
+
+a[href^='http'] {
+	@apply underline;
+	@apply text-sky-800;
+
+	@apply hover:no-underline;
+}
