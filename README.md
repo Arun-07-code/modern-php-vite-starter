@@ -1,7 +1,7 @@
 <h1 style="margin-bottom:0">PHP-Vite Starter Repo <span style="font-size:1rem;">by <a href="https://nititech.de" target="_blank">nititech</a></span></h1>
 
 modern-php-vite-starter is a modern vanilla PHP-Vite starter repository designed to provide developers with the essential tools to kickstart their development of modern componentized PHP applications.\
-This repository utilizes [Vite](https://vitejs.dev/), [`vite-plugin-php` plugin](https://github.com/donnikitos/vite-plugin-php) and [PHP-Components](https://github.com/nititech/php-components) + [`vite-plugin-php-componetns` plugin](https://github.com/nititech/vite-plugin-php-componetns) to improve developer experience and provide various features to streamline development.
+This repository utilizes [Vite](https://vitejs.dev/), [`vite-plugin-php` plugin](https://github.com/donnikitos/vite-plugin-php) and [PHP-Components](https://github.com/donnikitos/php-html-components) + [`vite-plugin-php-components` plugin](https://github.com/nititech/vite-plugin-php-components) to improve developer experience and provide various features to streamline development.
 
 ## Features
 
